@@ -1,0 +1,271 @@
+:root {
+   --bg-dark: #222222;
+   --text-light: #ffffff;
+   --text-dark: #111111;
+   --accent-blue: #11aaff;
+   --shadow-color: #00000088;
+   --gradient-bg: linear-gradient(250deg, #ffffff88, #00ddee22);
+   --gradient-btn: linear-gradient(150deg, #14cde6, #ae0cee);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: "Roboto", sans-serif;
+   background: var(--gradient-bg);
+   color: var(--text-dark);
+}
+
+.container {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 24px;
+}
+
+.header {
+   background-color: var(--bg-dark);
+   height: 80px;
+   width: 100%;
+   position: sticky;
+   top: 0;
+   z-index: 9;
+}
+
+.nav {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo {
+   font-size: 26px;
+   font-weight: 700;
+   color: var(--text-light);
+   text-decoration: none;
+   letter-spacing: -0.5px;
+   transition: transform 200ms ease;
+}
+
+.logo:hover {
+   transform: scale(1.05);
+}
+
+.logo span {
+   color: var(--accent-blue);
+}
+
+.nav-list {
+   display: flex;
+   align-items: center;
+   list-style: none;
+}
+
+.nav-list li {
+   transition: transform 200ms ease;
+}
+
+.nav-list li:hover {
+   transform: scale(1.1);
+}
+
+.nav-list a {
+   text-decoration: none;
+   color: var(--text-light);
+   font-weight: 500;
+   padding: 10px 15px;
+   margin-left: 10px;
+}
+
+.main {
+   width: 100%;
+   height: calc(100vh - 80px);
+   background: url("images/programador.png") center/cover no-repeat;
+   display: flex;
+   align-items: center;
+}
+
+.main h1 {
+   color: var(--text-light);
+   font-size: 54px;
+}
+
+.main p {
+   font-size: 24px;
+   font-style: italic;
+   color: var(--accent-blue);
+   margin: 10px 0 35px;
+}
+
+.call-to-action,
+.action {
+   display: inline-block;
+   cursor: pointer;
+   color: var(--text-light);
+   background: var(--gradient-btn);
+   border: 0;
+   border-radius: 10px;
+   font-size: 18px;
+   font-weight: 600;
+   text-decoration: none;
+   transition: transform 300ms ease;
+}
+
+.call-to-action {
+   padding: 14px 24px;
+}
+
+.action {
+   padding: 12px 28px;
+   margin-top: 20px;
+   box-shadow: 0 2px 5px var(--shadow-color);
+}
+
+.call-to-action:hover,
+.action:hover {
+   transform: scale(1.1);
+}
+
+.about {
+   padding-top: 80px;
+   padding-bottom: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.about div {
+   max-width: 50%;
+   padding-right: 40px;
+}
+
+.about div h2 {
+   font-size: 32px;
+   margin-bottom: 14px;
+}
+
+.about div p {
+   line-height: 1.6;
+}
+
+.about img {
+   width: 100%;
+   max-width: 450px;
+   border-radius: 8px;
+   box-shadow: 5px 5px 10px var(--shadow-color);
+}
+
+.projects {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+
+.projects h2 {
+   font-size: 32px;
+   margin: 20px 0 8px;
+}
+
+.projects p {
+   margin-bottom: 40px;
+   font-style: italic;
+}
+
+.project-list {
+   width: 100%;
+   margin-bottom: 12px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 12px;
+}
+
+.projects img {
+   width: calc(33.333% - 8px);
+   border-radius: 6px;
+   filter: brightness(0.3);
+   transition:
+      filter 500ms ease,
+      transform 300ms ease;
+   box-shadow: 5px 5px 10px var(--shadow-color);
+}
+
+.projects img:hover {
+   filter: brightness(1);
+   transform: scale(1.02);
+}
+
+footer {
+   width: 100%;
+   background-color: var(--bg-dark);
+   padding: 20px 0;
+   color: var(--text-light);
+}
+
+footer .container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+footer a {
+   text-decoration: none;
+   color: var(--text-light);
+}
+
+footer p {
+   margin-top: 8px;
+   font-size: 12px;
+}
+
+@media (max-width: 1050px) {
+   .main h1 {
+      font-size: 45px;
+   }
+
+   .main p {
+      font-size: 18px;
+   }
+
+   .about {
+      flex-direction: column;
+      padding-bottom: 0;
+   }
+
+   .about div {
+      max-width: 100%;
+      padding-right: 0;
+   }
+
+   .about div h2 {
+      font-size: 45px;
+   }
+
+   .about img {
+      max-width: 100%;
+      margin-top: 30px;
+   }
+
+   footer h3 {
+      font-size: 20px;
+      margin-bottom: 8px;
+   }
+
+   footer p {
+      margin: 0;
+   }
+}
