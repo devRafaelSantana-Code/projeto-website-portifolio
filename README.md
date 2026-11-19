@@ -1,12 +1,28 @@
 # 🌐 Personal Website Portfolio — Dev. Rafael Santana
 
 <p align="center">
-&#x20; <img src="images/foto-pc.png" alt="Demonstração do Personal Website Portfolio" width="400">
+  <img src="images/foto-pc.png" alt="Demonstração do Personal Website Portfolio" width="400">
 </p>
 
-<p align="center">   <img src="[https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)" alt="HTML5">   <img src="[https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)" alt="CSS3">   <img src="[https://img.shields.io/badge/Flexbox-6C63FF?style=for-the-badge](https://img.shields.io/badge/Flexbox-6C63FF?style=for-the-badge)" alt="Flexbox">   <img src="[https://img.shields.io/badge/CSS_Grid-8E44AD?style=for-the-badge](https://img.shields.io/badge/CSS_Grid-8E44AD?style=for-the-badge)" alt="CSS Grid">   <img src="[https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white](https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)" alt="Google Fonts">   <img src="[https://img.shields.io/badge/Responsive_Design-263238?style=for-the-badge](https://img.shields.io/badge/Responsive_Design-263238?style=for-the-badge)" alt="Responsive Design"> </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/Flexbox-6C63FF?style=for-the-badge" alt="Flexbox">
+  <img src="https://img.shields.io/badge/CSS_Grid-8E44AD?style=for-the-badge" alt="CSS Grid">
+  <img src="https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white" alt="Google Fonts">
+  <img src="https://img.shields.io/badge/Responsive_Design-263238?style=for-the-badge" alt="Responsive Design">
+</p>
 
-<p align="center">   <a href="#-sobre-o-projeto"><img src="[https://img.shields.io/badge/Sobre-263238?style=for-the-badge](https://img.shields.io/badge/Sobre-263238?style=for-the-badge)" alt="Sobre"></a>   <a href="#-estrutura-e-seções"><img src="[https://img.shields.io/badge/Seções-37474F?style=for-the-badge](https://img.shields.io/badge/Seções-37474F?style=for-the-badge)" alt="Seções"></a>   <a href="#-funcionalidades"><img src="[https://img.shields.io/badge/Funcionalidades-263238?style=for-the-badge](https://img.shields.io/badge/Funcionalidades-263238?style=for-the-badge)" alt="Funcionalidades"></a>   <a href="#-tecnologias-e-conceitos"><img src="[https://img.shields.io/badge/Tecnologias-37474F?style=for-the-badge](https://img.shields.io/badge/Tecnologias-37474F?style=for-the-badge)" alt="Tecnologias"></a>   <a href="#-estrutura-do-projeto"><img src="[https://img.shields.io/badge/Estrutura-263238?style=for-the-badge](https://img.shields.io/badge/Estrutura-263238?style=for-the-badge)" alt="Estrutura"></a>   <a href="#-como-executar"><img src="[https://img.shields.io/badge/Execução-37474F?style=for-the-badge](https://img.shields.io/badge/Execução-37474F?style=for-the-badge)" alt="Execução"></a>   <a href="#-aprendizados"><img src="[https://img.shields.io/badge/Aprendizados-263238?style=for-the-badge](https://img.shields.io/badge/Aprendizados-263238?style=for-the-badge)" alt="Aprendizados"></a> </p>
+<p align="center">
+  <a href="#-sobre-o-projeto">Sobre o Projeto</a> •
+  <a href="#-visualização-do-projeto">Visualização</a> •
+  <a href="#-estrutura-e-seções">Seções</a> •
+  <a href="#-funcionalidades">Funcionalidades</a> •
+  <a href="#-tecnologias-e-conceitos">Tecnologias</a> •
+  <a href="#-estrutura-do-projeto">Estrutura</a> •
+  <a href="#-como-executar">Execução</a> •
+  <a href="#-aprendizados">Aprendizados</a>
+</p>
 
 ---
 
@@ -19,6 +35,22 @@ Desenvolvido com base nos desafios da plataforma **Sujeito Programador**, o webs
 A interface foi estruturada em uma única página, com navegação por âncoras e transições suaves entre as seções, proporcionando uma experiência de navegação simples, intuitiva e organizada.
 
 O projeto também explora a construção de layouts modernos, organização visual de conteúdos, hierarquia tipográfica e apresentação de projetos por meio de uma galeria de trabalhos.
+
+---
+
+## 🌎 Visualização do Projeto
+
+<p align="center">
+  <a href="https://projeto-website-portifolio.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Acessar_Projeto_Online-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Acessar projeto online pela Vercel">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://projeto-website-portifolio.vercel.app/" target="_blank">
+    <strong>🔗 Visualizar Personal Website Portfolio</strong>
+  </a>
+</p>
 
 ---
 
@@ -171,13 +203,13 @@ O projeto contribuiu para consolidar conhecimentos em HTML5 e CSS3, além de des
 Estudante de Engenharia da Computação, com foco em desenvolvimento Full-Stack e Engenharia de Software.
 
 <p align="center">
-&#x20; <a href="[https://github.com/devRafaelSantana-Code](https://github.com/devRafaelSantana-Code)" target="_blank">
-&#x20;   <img src="[https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)" alt="GitHub">
-&#x20; </a>
+  <a href="https://github.com/devRafaelSantana-Code" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
 </p>
 
 ---
 
 <p align="center">
-&#x20; Projeto desenvolvido para fins educacionais e para consolidação de conhecimentos em HTML5, CSS3, CSS Grid, Flexbox e desenvolvimento de interfaces responsivas.
+  Projeto desenvolvido para fins educacionais e para consolidação de conhecimentos em HTML5, CSS3, CSS Grid, Flexbox e desenvolvimento de interfaces responsivas.
 </p>
